@@ -1,0 +1,14 @@
+{
+  "name": "webcomponents-workbench",
+  "version": "1.0.0",
+  "description": "Webcomponents Workbench",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "material-components-web": "^0.28.0"
+  }
+}
