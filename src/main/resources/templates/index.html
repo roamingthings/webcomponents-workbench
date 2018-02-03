@@ -33,25 +33,27 @@
 
     <link rel="import" th:href="@{/assets/js/bower_components/vaadin-material-theme/vaadin-date-picker.html}">
     <link rel="import" th:href="@{/assets/js/bower_components/vaadin-date-picker/vaadin-date-picker.html}">
+    <link rel="import" th:href="@{/assets/js/bower_components/iron-icons/iron-icons.html}">
+    <link rel="import" th:href="@{/icon-toggle.html}">
 
     <link rel="stylesheet"
           href="/assets/js/node_modules/material-components-web/dist/material-components-web.css"
           th:href="@{/assets/js/node_modules/material-components-web/dist/material-components-web.css}"/>
     <script th:src="@{/assets/js/node_modules/material-components-web/dist/material-components-web.js}"></script>
 
-<!--
-    <style>
-        #view-source {
-            position: fixed;
-            display: block;
-            right: 0;
-            bottom: 0;
-            margin-right: 40px;
-            margin-bottom: 40px;
-            z-index: 900;
-        }
-    </style>
--->
+    <!--
+        <style>
+            #view-source {
+                position: fixed;
+                display: block;
+                right: 0;
+                bottom: 0;
+                margin-right: 40px;
+                margin-bottom: 40px;
+                z-index: 900;
+            }
+        </style>
+    -->
 </head>
 <body class="mdc-typography">
 <header class="mdc-toolbar mdc-toolbar--fixed demo-toolbar">
@@ -94,6 +96,12 @@
         </button>
         <div>
             <vaadin-date-picker label="Pick a date"></vaadin-date-picker>
+        </div>
+        <div>
+            <h3>Toggle me</h3>
+
+            <icon-toggle toggle-icon="star"></icon-toggle>
+            <icon-toggle toggle-icon="star" pressed></icon-toggle>
         </div>
 
         <p>Get your greeting <a href="/greeting">here</a></p>

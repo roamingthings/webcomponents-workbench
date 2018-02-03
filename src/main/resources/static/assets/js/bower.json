@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.5.0",
+    "iron-icon": "PolymerElements/iron-icon#^2.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^2.0.0",
     "vaadin-date-picker": "vaadin/vaadin-date-picker#^2.0.7",
     "vaadin-material-theme": "vaadin/vaadin-material-theme#^0.3.0"
   }
